@@ -36,6 +36,7 @@
 (require racket/set)
 (require racket/string)
 (require rackunit)
+(require rackunit/text-ui)
 
 ;;;;;;;;;;;;;;;; Utilities used by definitions ;;;;;;;;;;;;;;;;
 
@@ -104,6 +105,10 @@
                 '("A2" "B2" "D2" "E2" "F2" "G2" "H2" "I2"
                        "C1" "C3" "C4" "C5" "C6" "C7" "C8" "C9"
                        "A1" "A3" "B1" "B3")))
+
+(define (test)
+  (unless (= 0 (run-tests definition-tests))
+    (error "Error: unit test failure.")))
 
 ;;;;;;;;;;;;;;;; Parse a Grid ;;;;;;;;;;;;;;;;
 
@@ -319,9 +324,7 @@
 (define blank ".................................................................................")
 
 (module+ main
-  (require rackunit/text-ui)
-  (unless (= 0 (run-tests definition-tests))
-    (error "Error: unit test failure."))
+  (test)
   (solve-all (from-file "easy50.txt" "========") "easy")
   (solve-all (from-file "top95.txt") "hard")
   (solve-all (from-file "hardest.txt") "hardest")
