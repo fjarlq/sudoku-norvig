@@ -2,7 +2,7 @@
 
 ;;
 ;; A translation of Peter Norvig's Sudoku puzzle solver into Racket.
-;; (by Matt Day)
+;; by Matt Day, based on http://norvig.com/sudoku.html
 ;;
 ;; Implements a Sudoku solver that works on an empty or partially-filled 9x9 board.
 ;;
