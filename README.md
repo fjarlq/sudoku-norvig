@@ -3,8 +3,9 @@ A translation of [Peter Norvig's Sudoku puzzle solver][1] into Racket.
 
 [1]: http://norvig.com/sudoku.html
 
-Sample output:
-
+    $ make
+    raco exe sudoku.rkt
+    $ ./sudoku
     6 success(es) 0 failure(s) 0 error(s) 6 test(s) run
     Solved 50 of 50 easy puzzles (avg 19.72 msecs (50.71 Hz), max 54 msecs).
     Solved 95 of 95 hard puzzles (avg 51.67 msecs (19.35 Hz), max 248 msecs).
