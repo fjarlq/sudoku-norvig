@@ -325,9 +325,9 @@
 
 (module+ main
   (test)
-  (solve-all (from-file "easy50.txt" "========") "easy")
-  (solve-all (from-file "top95.txt") "hard")
-  (solve-all (from-file "hardest.txt") "hardest")
+  (solve-all (from-file "puzzles/easy50.txt" "========") "easy")
+  (solve-all (from-file "puzzles/top95.txt") "hard")
+  (solve-all (from-file "puzzles/hardest.txt") "hardest")
   (printf "~nThis puzzle has two solutions:~n")
   (display-values (grid-values mult2))
   (printf "~nSolutions found:~n")
