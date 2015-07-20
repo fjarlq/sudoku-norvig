@@ -1,8 +1,8 @@
 #lang racket/base
 
 ;;
-;; Peter Norvig's Sudoku puzzle solver: http://norvig.com/sudoku.html
-;; (translated into Racket by Matt Day)
+;; A translation of Peter Norvig's Sudoku puzzle solver into Racket.
+;; (by Matt Day)
 ;;
 ;; Implements a Sudoku solver that works on an empty or partially-filled 9x9 board.
 ;;

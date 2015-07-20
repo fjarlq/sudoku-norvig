@@ -1,7 +1,7 @@
 # sudoku-norvig
-Peter Norvig's Sudoku puzzle solver: http://norvig.com/sudoku.html
+A translation of [Peter Norvig's Sudoku puzzle solver][1] into Racket.
 
-(translated into Racket by Matt Day)
+[1]: http://norvig.com/sudoku.html
 
 Sample output:
 
