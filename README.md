@@ -7,9 +7,9 @@ A translation of [Peter Norvig's Sudoku puzzle solver][1] into Racket.
     raco exe sudoku.rkt
     $ ./sudoku
     6 success(es) 0 failure(s) 0 error(s) 6 test(s) run
-    Solved 50 of 50 easy puzzles (avg 19.72 msecs (50.71 Hz), max 54 msecs).
-    Solved 95 of 95 hard puzzles (avg 51.67 msecs (19.35 Hz), max 248 msecs).
-    Solved 11 of 11 hardest puzzles (avg 23.73 msecs (42.15 Hz), max 48 msecs).
+    Solved 50 of 50 easy puzzles (avg 11.32 msecs (88.34 Hz), max 29 msecs).
+    Solved 95 of 95 hard puzzles (avg 30.59 msecs (32.69 Hz), max 169 msecs).
+    Solved 11 of 11 hardest puzzles (avg 13.82 msecs (72.37 Hz), max 27 msecs).
     
     This puzzle has two solutions:
     ====================
